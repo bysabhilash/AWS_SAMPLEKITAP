@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Salesforce">
+<!-- parallel="tests" thread-count="2" verbose="2"-->
+<listeners>
+<listener class-name="com.kitap.utilities.listener"></listener>
+</listeners> 
+ <parameter name="browserType" value="chrome" />  
+
+    <test  name="Salesforce Demo CasesWarrantyClaimCreation">
+      <classes>     
+      <class name="com.kitap.testscripts.CasesWarrantyClaimCreation"/> 
+       </classes>  
+       </test>   
+       <test  name="Salesforce Demo CasesWarrantyCreation">
+       <classes>   
+      <class name="com.kitap.testscripts.CasesWarrantyCreation"/> 
+      </classes> 
+       </test>       
+      <test  name="Salesforce Demo CaseserviceapprovalCreation">
+      <classes>  
+       <class name="com.kitap.testscripts.CaseserviceapprovalCreation"/>       
+      </classes> 
+       </test>   
+</suite> <!-- Suite -->
+
+
+
+
+

@@ -1,0 +1,23 @@
+{
+	"environments": 
+	{
+		"Salesforce_Lightening": 
+		{
+
+
+			"UAT": 
+			{
+				"userId": "banu.daikin@solunus.com.cpqdev",
+				"homePage":"https://test.salesforce.com/",
+				"passwd": "SzF0YXBEZW1v",
+				"SFAPICLIENTID_UAT": "3MVG9wt4IL4O5wvJDX6vb.R03mGn9j3rLMzlv7pROG43Wb.GneMhap2V3StPGK5igTw5lcXWH3FraHmVA6r9N",
+				"SFAPICLIENTSECRET_UAT": "6F05BBA5798E268DB8D5706913D359787E43A97285F4968934DEA67125028F2D",
+                                "huburi": "http://localhost:4444",
+				"apitoken":"I9AIshlr6hhpSvjnLIVjIcaC"
+
+			}
+
+		}
+
+	}
+}

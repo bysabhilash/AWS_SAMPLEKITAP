@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Salesforce docker demo">
+     <suite-files>
+                   <suite-file path="C:\Users\AbhilashBysani-Kairo\eclipse-workspace\KITAP\suiteB.xml" />
+                   <suite-file path="C:\Users\AbhilashBysani-Kairo\eclipse-workspace\KITAP\suiteA.xml" />
+                    <suite-file path="C:\Users\AbhilashBysani-Kairo\eclipse-workspace\KITAP\suitec.xml" />
+            </suite-files>
+</suite> <!-- Suite -->

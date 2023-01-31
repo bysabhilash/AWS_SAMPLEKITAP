@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Salesforce">
+<!-- parallel="tests" thread-count="2" verbose="2"-->
+<listeners>
+<listener class-name="com.kitap.utilities.listener"></listener>
+</listeners> 
+ <parameter name="browserType" value="chrome" />  
+ <!-- <parameter name="browserType" value="chrome" />
+ <test  name="accountCreationpage">
+    <classes>
+    <class name="com.kitap.testscripts.AccountCreationViaUI"/>
+       </classes>
+      </test>--> 
+     <test  name="Salesforce test execution BankingManagementCreationViaUI">
+      <classes>     
+      <class name="com.kitap.testscripts.BankingManagementCreationViaUI"/> 
+       </classes> 
+       </test> 
+         
+ <!--  <test  name="Salesforce Demo CasesWarrantyCreation">
+       <classes>   
+      <class name="com.kitap.testscripts.CasesWarrantyCreation"/> 
+      </classes> 
+       </test>     
+    <test  name="Salesforce Demo CaseserviceapprovalCreation">
+      <classes>  
+       <class name="com.kitap.testscripts.CaseserviceapprovalCreation"/>       
+      </classes> 
+       </test>    -->   
+    <!-- <test  name="Salesforce Demo page CasesApprovalCreationViaUI">
+      <classes>     
+       <class name="com.kitap.testscripts.CasesApprovalCreationViaUI"/>
+      </classes>
+       </test> --> 
+      <!-- <test  name="Salesforce customize pages BankingManagementCreationViaUI">
+        <class name="com.kitap.testscripts.CasesCreationViaUI"/>
+      <classes>
+      <class name="com.kitap.testscripts.BankingManagementCreationViaUI"/>
+      </classes>
+       </test>--> 
+   <!--<parameter name="browserType" value="remote-firefox" />
+      <test  name="BankingMangementpage">
+     <classes> 
+     <class name="com.kitap.testscripts.BankingManagementCreationViaUI"/>
+   <class name="com.kitap.testscripts.BankingManagementCreationViaUI"/>
+      <class name="com.kitap.testscripts.OpportunityCreationViaUI"/>
+      <class name="com.kitap.testscripts.AssetCreationViaUI"/>
+      <class name="com.kitap.testscripts.LeadCreationViaUI"/>
+      <class name="com.kitap.testscripts.RefundCreationViaUI"/>   -->   
+</suite> <!-- Suite -->

@@ -1,0 +1,26 @@
+{
+"AccountCreationViaUI":[
+ {
+  "data_searchbar": "accounts",
+  "accountname": "Testaccount",
+  "accountnumber": "12345",
+  "accountsite": "http:\/\/kairos.com",
+  "website": "http:\/\/kairos.com",
+  "annualrevenue": "10000000",
+  "employees": "50",
+  "siccode": "523155",
+  "runmode": "Y"
+ },
+ {
+  "data_searchbar": "accounts",
+  "accountname": "Testaccount1",
+  "accountnumber": 67899,
+  "accountsite": "http:\/\/kairos.com",
+  "website": "http:\/\/kairos.com",
+  "annualrevenue": "10000000",
+  "employees": 99,
+  "siccode": "523155",
+  "runmode": "Y"
+ }
+]
+}

@@ -1,0 +1,17 @@
+{
+	
+				"filename":"report.html",
+                                "reportpath": "C:\\Users\\AbhilashBysani-Kairo\\eclipse-workspace\\KITAP\\report",
+				"desc": "Test execution report",
+				"host": "smtp.gmail.com",
+				"authenticationusername": "abhilashbysani96@gmail.com",
+                                "authenticationpsswd": "mvqambosvfrzqqsm",
+                                "fromperson": "abhilashbysani96@gmail.com",
+				"cc":"amulyasmitha@gmail.com",
+                                "Toperson1": "abhilashcool43@gmail.com",
+				"Toperson2":"botlasai@gmail.com",
+                                "Bcc":"dineshqaa1@gmail.com",
+                                "msg":"Hello good day This is a test execution report "
+
+			
+}
